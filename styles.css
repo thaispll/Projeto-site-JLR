@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Montserrat:wght@400;700&display=swap');
+
+body {
+    background-color: #121212;
+    margin: 0;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+
+.conteiner {
+    background-color: #f4f6ef;
+    max-width: 1100px;
+    margin: 40px auto;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.16);
+}
+
+.caixa-principal {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 32px 16px 32px;
+    background-color: #f4f6ef;
+}
+
+.logotipo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.icone-logotipo {
+    background-color: #f9c06a;
+    color: #3d4e3d;
+    font-weight: bold;
+    font-size: 2rem;
+    border-radius: 50%;
+    padding: 8px 14px;
+}
+
+.texto-logotipo {
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.3rem;
+    color: #3d4e3d;
+}
+
+.links-navegacao {
+    display: flex;
+    gap: 32px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.links-navegacao a {
+    text-decoration: none;
+    color: #3d4e3d;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.carrinho {
+    background-color: #2b4633;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    position: relative;
+}
+
+.contador-carrinho {
+    background-color: #f9c06a;
+    color: #2b4633;
+    border-radius: 50%;
+    padding: 2px 8px;
+    font-size: 0.9em;
+    margin-left: 8px;
+}
+
+.conteudo-principal {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 24px;
+    padding: 32px;
+}
+
+.parte-bege {
+    background-color: #f9c06a;
+    border-radius: 32px;
+    padding: 32px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    min-height: 340px;
+}
+
+.texto-destaque {
+    flex: 1;
+}
+
+.texto-destaque h1 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 3.5rem;
+    color: #fff;
+    margin: 0 0 16px 0;
+    letter-spacing: 2px;
+}
+
+.selo-preco {
+    background-color: #3d4e3d;
+    color: #fff;
+    display: inline-block;
+    padding: 8px 18px;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-bottom: 12px;
+    font-size: 1.1rem;
+}
+
+.selo-preco span {
+    color: #f9c06a;
+    font-size: 1.3em;
+}
+
+.texto-destaque p {
+    margin: 18px 0 8px 0;
+    color: #3d4e3d;
+    font-size: 1.1rem;
+}
+
+.avaliacao {
+    color: #fff;
+    font-size: 1.3rem;
+    margin-top: 10px;
+}
+
+.avaliacao span {
+    color: #3d4e3d;
+    font-size: 1rem;
+    margin-left: 8px;
+}
+
+.imagem-destaque {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 6px solid #fff;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+
+.painel-lateral {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.parte-escola {
+    background-color: #b6d0e2;
+    padding: 24px;
+    border-radius: 28px;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.cartao-escola h2 {
+    font-family: 'Fredoka One', cursive;
+    color: #232323;
+    font-size: 2rem;
+    margin: 0 0 10px 0;
+}
+
+.cartao-escola p {
+    color: #232323;
+    font-size: 1rem;
+    margin-bottom: 14px;
+}
+
+.botao-explorar {
+    background-color: #232323;
+    color: #fff;
+    border: none;
+    border-radius: 18px;
+    padding: 10px 26px;
+    font-size: 1rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.botao-explorar:hover {
+    background-color: #3d4e3d;
+}
+
+.cartao-dia-dia {
+    background-color: #f7a76c;
+    padding: 24px;
+    border-radius: 28px;
+    text-align: center;
+    position: relative;
+}
+
+.cartao-dia-dia h2 {
+    font-family: 'Fredoka One', cursive;
+    color: #232323;
+    font-size: 2rem;
+    margin: 0 0 10px 0;
+}
+
+.cartao-dia-dia img {
+    width: 110px;
+    height: 110px;
+    border-radius: 16px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.preco-dia-dia {
+    position: absolute;
+    top: 18px;
+    right: 24px;
+    background-color: #3d4e3d;
+    color: #fff;
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.cartao-dia-dia p {
+    color: #232323;
+    font-size: 1rem;
+    margin-top: 12px;
+}
+
+.melhores-escolhas {
+    grid-column: 1 / span 2;
+    background-color: #fff;
+    border-radius: 24px;
+    padding: 24px 32px;
+    margin-top: 32px;
+}
+
+.melhores-escolhas h3 {
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.6rem;
+    color: #232323;
+    margin-bottom: 18px;
+}
+
+.melhores-escolhas ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.melhores-escolhas li {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.melhores-escolhas li:last-child {
+    border-bottom: none;
+}
+
+.icone-escolha {
+    font-size: 1.5rem;
+}
+
+.nome-escolha {
+    font-weight: bold;
+    color: #3d4e3d;
+    min-width: 100px;
+}
+
+.descricao-escolha {
+    color: #757575;
+    font-size: 1rem;
+    flex: 1;
+}
+
+.preco-escolha {
+    color: #3d4e3d;
+    font-weight: bold;
+    margin-right: 12px;
+}
+
+.botao-adicionar {
+    background-color: #f9c06a;
+    color: #232323;
+    border: none;
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.botao-adicionar:hover {
+    background-color: #f7a76c;
+}
+
+@media (max-width: 900px) {
+    .conteudo-principal {
+        grid-template-columns: 1fr;
+        gap: 16px;
+        padding: 18px;
+    }
+    .melhores-escolhas {
+        grid-column: 1 / span 1;
+    }
+}
